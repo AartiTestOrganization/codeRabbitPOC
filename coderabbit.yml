@@ -1,0 +1,12 @@
+rules:
+  security:
+    sql_injection: true
+    secrets_detection: true
+  style:
+    require_docstrings: true
+  performance:
+    detect_n_plus_one: true
+
+severity_levels:
+  sql_injection: critical
+  missing_docstring: low
