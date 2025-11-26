@@ -1,1 +1,13 @@
+name: CodeReview
+on:
+  push:
+    branches: [main, master]
+
+jobs:
+  code-review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run CodeRabbit
+        uses: coderabbitai/github-action@v1
 
