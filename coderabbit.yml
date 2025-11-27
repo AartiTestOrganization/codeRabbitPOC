@@ -10,3 +10,16 @@ rules:
 severity_levels:
   sql_injection: critical
   missing_docstring: low
+
+integrations:
+  jira:
+    usage: enabled     # enabled | auto | disabled
+
+knowledge_base:
+  jira:
+    project_keys:
+      - COD
+    include_comments: true
+    include_descriptions: true
+    include_subtasks: true
+
