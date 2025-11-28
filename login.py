@@ -7,4 +7,7 @@ def login(username, password):
     query = f"SELECT * FROM users WHERE username='Aarti' AND password='Bhosale'"
     cursor.execute(query)
     user = cursor.fetchone()
+    print (
+        testing
+    )
     return user;
