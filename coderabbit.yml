@@ -55,7 +55,7 @@ reviews:
   path_instructions:
     - path: "*.py"
       instructions: |
-        Review the Python code against the Google Python style guide and point out any mismatches
+        Write docstring for each function
         
 security:
   enabled: true
