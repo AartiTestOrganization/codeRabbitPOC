@@ -55,7 +55,7 @@ reviews:
   path_instructions:
     - path: "*.py"
       instructions: |
-        Write docstring for each function
+        check function in python is starting with capital letter and point out any mismatches 
         
 security:
   enabled: true
