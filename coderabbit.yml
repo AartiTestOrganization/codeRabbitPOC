@@ -51,6 +51,12 @@ rules:
 # ===========================================
 # 4. Security Rules
 # ===========================================
+reviews:
+  path_instructions:
+    - path: "*.py"
+      instructions: |
+        Review the Python code against the Google Python style guide and point out any mismatches
+        
 security:
   enabled: true
 
